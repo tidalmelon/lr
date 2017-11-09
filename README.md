@@ -13,6 +13,7 @@ x= 2.000000
 ```
 
 ```
+一元线性回归
 lr_2.cpp
 After 1500 iterates, the cost Error(w0, w1) is 41.844789
 w0 = [0.018653], w1 = [2.981086]
@@ -22,6 +23,7 @@ predict(110) = 327.938070
 ```
 
 ```
+多元线性回归
 lr_3.cpp
 After 1500 iterates, the cost Error(w0, w1) is 40.559510
 w0=-0.053241
