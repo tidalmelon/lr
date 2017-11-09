@@ -28,6 +28,8 @@ w0= -23.5512952764 w1= 3.20708095323
 predict(112) =  335.641771485
 predict(110) =  329.227609578
 ```
+## 一元线性回归 与 最小二乘拟合对比
+![](https://github.com/tidalmelon/lr/blob/master/img/lr_leastsquare.png)
 
 ```
 多元线性回归
