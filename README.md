@@ -24,9 +24,11 @@ predict(110) = 327.938070
 ```
 最小二乘拟合
 least_square.py
-w0= -23.5512952764 w1= 3.20708095323
+
+least square error cost(-23.5512952764, 3.20708095323) is 35.1218735092
 predict(112) =  335.641771485
 predict(110) =  329.227609578
+
 ```
 ## 一元线性回归 与 最小二乘拟合对比
 ![](https://github.com/tidalmelon/lr/blob/master/img/lr_leastsquare.png)

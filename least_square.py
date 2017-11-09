@@ -36,6 +36,13 @@ def LeastSquare(xs, ys):
     inter = ybar - slope * xbar
     return inter, slope
 
+def compute_cost(x, y, w0, w1, sample_number):
+    total = 0.0
+    for i in range(sample_number):
+        total += (w1 * x[i] + w0 - y[i]) ** 2
+    return total / (2 * sample_number)
+
+
 def Predict(inter, slope, x):
     return inter + slope * x
 
@@ -45,6 +52,7 @@ if __name__ == '__main__':
     y = [287, 343, 199, 298, 340, 350]
 
     inter, slope = LeastSquare(x, y)
-    print 'w0=', inter, 'w1=', slope
+    cost = compute_cost(x, y, inter, slope, 6)
+    print 'least square error cost(%s, %s) is %s' % (inter, slope, cost)
     print 'predict(112) = ', Predict(inter, slope, 112) 
     print 'predict(110) = ', Predict(inter, slope, 110) 
