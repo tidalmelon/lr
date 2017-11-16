@@ -46,3 +46,7 @@ predict(112) = 325.488320
 predict(110) = 325.977873
 ```
 
+## 逻辑回归
+sigmoid 函数： 
+
+![](https://github.com/tidalmelon/lr/blob/master/img/sigmoid.png)
