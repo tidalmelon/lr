@@ -1,27 +1,22 @@
 # linear regression
 
 ## 一元二次方程求极值
-伪代码  详见lr_1.cpp
+梯度下降法:  lr_1.cpp lr_1.py  
+
+```math
+\theta_i = \theta_i - \alpha\frac\partial{\partial\theta_i}J(\theta)
 ```
+
+```
+伪代码
 while ( max_iterate_num or other ) {
     x = x - alpha * 导数(f(x))
 }
 ```
 
-```
-python lr_1.py
-x= 2.0
-60000.0 (s)
-```
+##一元线性回归
 
 ```
-lr_1.cpp
-x= 2.000000
-0/1000000(s)
-```
-
-```
-一元线性回归
 lr_2.cpp
 After 1500 iterates, the cost Error(w0, w1) is 41.844789
 w0 = [0.018653], w1 = [2.981086]
