@@ -1,7 +1,15 @@
 # linear regression
 
+## 一元二次方程求极值
+伪代码  详见lr_1.cpp
+```
+while ( max_iterate_num or other ) {
+    x = x - alpha * 导数(f(x))
+}
+```
 
-```python lr_1.py
+```
+python lr_1.py
 x= 2.0
 60000.0 (s)
 ```
