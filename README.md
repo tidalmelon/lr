@@ -15,7 +15,7 @@ while ( max_iterate_num or other ) {
 ```
 
 ##一元线性回归
-![](https://github.com/tidalmelon/lr/blob/master/img/lr_2.png)
+![](https://github.com/tidalmelon/lr/blob/master/img/lr_2.jpg)
 
 
 ```
