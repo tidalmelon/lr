@@ -15,7 +15,7 @@ while ( max_iterate_num or other ) {
 
 ```
 g++ lr_2.cpp
-After 1500 iterates, the cost Error(w0, w1) is 41.844789
+After 1500 iterates, the cost Error(w0, w1) is *41.844789*
 w0 = [0.018653], w1 = [2.981086]
 predict(112) = 333.900241
 predict(110) = 327.938070
@@ -27,7 +27,7 @@ predict(110) = 327.938070
 ```
 python least_square.py
 
-least square error cost(-23.5512952764, 3.20708095323) is 35.1218735092
+least square error cost(-23.5512952764, 3.20708095323) is *35.1218735092*
 predict(112) =  335.641771485
 predict(110) =  329.227609578
 
