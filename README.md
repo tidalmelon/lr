@@ -1,4 +1,4 @@
-# linear regression and logistic regression
+# 1 linear regression and logistic regression
 
 ## 1, 一元二次方程求极值
 梯度下降法:  lr_1.cpp lr_1.py  
